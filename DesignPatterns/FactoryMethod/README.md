@@ -19,6 +19,7 @@
  - ConcreteCreator - VehicleFactory 
 		This is a class which implements the Creator class and overrides the factory method to return an instance of a ConcreteProduct.
 	
+	
 ## When to use it?
  - Subclasses figure out what objects should be created.
  - Parent class allows later instantiation to subclasses means the creation of object is done when it is required.
