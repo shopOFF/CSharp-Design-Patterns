@@ -7,6 +7,6 @@ namespace FactoryMethod.Abstraction
     /// </summary>
     public abstract class AbstractVehicleFactory 
     {
-        public abstract IVehicle GetVehicle(string Vehicle);
+        public abstract IVehicle GetVehicle(string vehicle);
     }
 }

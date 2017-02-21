@@ -10,7 +10,7 @@ namespace FactoryMethod.Models
     {
         public void Drive(int kilometers)
         {
-            Console.WriteLine($"Drive the Scooter: {kilometers}");
+            Console.WriteLine($"Drive the Scooter: {kilometers}km.");
         }
     }
 }
