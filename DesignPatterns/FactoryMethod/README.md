@@ -6,18 +6,18 @@
 ### Example:
  - Product - IVehicle
 	
-	This is an interface for creating the objects.
+		This is an interface for creating the objects.
  
  - ConcreteProducts - Scooter & Bike
 	
-	This is a class which implements the Product interface.
+		This is a class which implements the Product interface.
 
  - AbstracCreator - AbstractVehicleFactory
 	
-	This is an abstract class and declares the factory method, which returns an object of type Product.
+		This is an abstract class and declares the factory method, which returns an object of type Product.
 
  - ConcreteCreator - VehicleFactory
-	This is a class which implements the Creator class and overrides the factory method to return an instance of a ConcreteProduct.
+		This is a class which implements the Creator class and overrides the factory method to return an instance of a ConcreteProduct.
 	
 ## When to use it?
  - Subclasses figure out what objects should be created.
