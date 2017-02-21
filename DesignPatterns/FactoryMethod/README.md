@@ -18,7 +18,8 @@
 
  - ConcreteCreator - VehicleFactory 
  
-		This is a class which implements the Creator class and overrides the factory method to return an instance of a ConcreteProduct.
+		This is a class which implements the Creator class and overrides the factory method to return 
+		an instance of a ConcreteProduct.
 	
 	
 ## When to use it?
