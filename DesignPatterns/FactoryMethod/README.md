@@ -17,6 +17,7 @@
 		This is an abstract class and declares the factory method, which returns an object of type Product.
 
  - ConcreteCreator - VehicleFactory 
+ 
 		This is a class which implements the Creator class and overrides the factory method to return an instance of a ConcreteProduct.
 	
 	
