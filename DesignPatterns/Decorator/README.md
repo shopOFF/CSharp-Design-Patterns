@@ -15,8 +15,8 @@
 
  - Decorator - AbstractVehicleDecorator
 	
-		This is an abstract class which implements the Component interface and contains the reference to a Component instance. 
-		This class also acts as base class for all decorators for components.
+		This is an abstract class which implements the Component interface and contains the reference to a 
+		Component instance. This class also acts as base class for all decorators for components.
 
  - ConcreteDecorator - VehicleSpecialOffer 
  
