@@ -7,9 +7,9 @@ namespace Decorator.Decorator
     /// <summary>
     /// The 'ConcreteDecorator' class
     /// </summary>
-    public class SpecialOffer : VehicleDecorator
+    public class VehicleSpecialOffer : AbstractVehicleDecorator
     {
-        public SpecialOffer(IVehicle vehicle)
+        public VehicleSpecialOffer(IVehicle vehicle)
             : base(vehicle)
         {
         }

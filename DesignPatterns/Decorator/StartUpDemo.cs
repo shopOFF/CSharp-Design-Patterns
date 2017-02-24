@@ -2,10 +2,6 @@
 using Decorator.Decorator;
 using Decorator.Models;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Decorator
 {
@@ -21,7 +17,7 @@ namespace Decorator
             Console.WriteLine("Honda City base price is : {0} $", hondaCar.Price);
 
             // Special offer
-            SpecialOffer hondaCarSpecialOffer = new SpecialOffer(hondaCar);
+            VehicleSpecialOffer hondaCarSpecialOffer = new VehicleSpecialOffer(hondaCar);
             hondaCarSpecialOffer.DiscountPercentage = 50;
             hondaCarSpecialOffer.Offer = $"{hondaCarSpecialOffer.DiscountPercentage} % discount";
 

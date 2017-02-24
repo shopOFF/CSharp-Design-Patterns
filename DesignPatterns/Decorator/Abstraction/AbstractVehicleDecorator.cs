@@ -5,11 +5,11 @@ namespace Decorator.Abstraction
     /// <summary>
     /// The 'Decorator' abstract class
     /// </summary>
-    public abstract class VehicleDecorator : IVehicle
+    public abstract class AbstractVehicleDecorator : IVehicle
     {
         private IVehicle vehicle;
 
-        public VehicleDecorator(IVehicle vehicle)
+        public AbstractVehicleDecorator(IVehicle vehicle)
         {
             this.vehicle = vehicle;
         }
