@@ -1,17 +1,15 @@
 ﻿using AbstractFactory.Contracts;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace AbstractFactory.Models.BikeModels
 {
+    /// <summary>
+    /// The 'ProductA2' class
+    /// </summary>
     public class SportsBike : IBike
     {
         public string Name()
         {
-            throw new NotImplementedException();
+            return "Sports Bike- Name";
         }
     }
 }

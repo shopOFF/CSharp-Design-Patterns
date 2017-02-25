@@ -1,5 +1,4 @@
 ﻿using AbstractFactory.Contracts;
-using AbstractFactory.Models;
 using AbstractFactory.Models.BikeModels;
 using AbstractFactory.Models.ScooterModels;
 using System;

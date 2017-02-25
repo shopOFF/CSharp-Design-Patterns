@@ -1,5 +1,4 @@
 ﻿using AbstractFactory.Contracts;
-using AbstractFactory.Models;
 using AbstractFactory.Models.BikeModels;
 using AbstractFactory.Models.ScooterModels;
 using System;
@@ -11,7 +10,7 @@ namespace AbstractFactory.Factories
     /// </summary>
     public class HondaFactory : IVehicleFactory
     {
-        public Bike GetBike(string bike)
+        public IBike GetBike(string bike)
         {
             switch (bike)
             {
@@ -24,7 +23,7 @@ namespace AbstractFactory.Factories
             }
         }
 
-        public Scooter GetScooter(string scooter)
+        public IScooter GetScooter(string scooter)
         {
             switch (scooter)
             {

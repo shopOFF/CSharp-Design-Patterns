@@ -1,17 +1,15 @@
 ﻿using AbstractFactory.Contracts;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace AbstractFactory.Models.ScooterModels
 {
+    /// <summary>
+    /// The 'ProductB1' class
+    /// </summary>
     public class RegularScooter : IScooter
     {
         public string Name()
         {
-            throw new NotImplementedException();
+            return "Regular Scooter- Name";
         }
     }
 }
