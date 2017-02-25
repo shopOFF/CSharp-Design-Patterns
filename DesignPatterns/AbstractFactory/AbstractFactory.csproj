@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Client\VehicleClient.cs" />
     <Compile Include="Contracts\IBike.cs" />
     <Compile Include="Contracts\IScooter.cs" />
     <Compile Include="Contracts\IVehicleFactory.cs" />
