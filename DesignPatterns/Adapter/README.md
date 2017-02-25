@@ -33,7 +33,7 @@
 ## Note
  - Internally, Adapter use Factory design pattern for creating objects. But it can also use Builder design pattern and prototype design pattern for creating product. It completely depends upon your implementation for creating products.
  - Adapter can be used as an alternative to Facade to hide platform-specific classes.
- - When Adapter, Builder, and Prototype define a factory for creating the products, we should consider the following points :
+ - When Adapter, Builder, and Prototype define a factory for creating the products, we should consider the following points:
 		
 		1. Adapter use the factory for creating objects of several classes.
 		2. Builder use the factory for creating a complex product by using simple objects
