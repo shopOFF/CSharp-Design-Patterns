@@ -43,6 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Contracts\IVehicleFactory.cs" />
+    <Compile Include="Factories\HondaFactory.cs" />
+    <Compile Include="Models\Bike.cs" />
+    <Compile Include="Models\Scooter.cs" />
     <Compile Include="StartUpDemo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
