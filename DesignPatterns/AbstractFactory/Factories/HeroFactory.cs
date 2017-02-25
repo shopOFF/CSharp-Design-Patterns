@@ -7,11 +7,11 @@ using System;
 namespace AbstractFactory.Factories
 {
     /// <summary>
-    /// The 'ConcreteFactory1' class.
+    /// The 'ConcreteFactory2' class.
     /// </summary>
-    public class HondaFactory : IVehicleFactory
+    public class HeroFactory : IVehicleFactory
     {
-        public Bike GetBike(string bike)
+        public IBike GetBike(string bike)
         {
             switch (bike)
             {
@@ -24,7 +24,7 @@ namespace AbstractFactory.Factories
             }
         }
 
-        public Scooter GetScooter(string scooter)
+        public IScooter GetScooter(string scooter)
         {
             switch (scooter)
             {
