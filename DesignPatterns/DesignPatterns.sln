@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter", "Adapter\Adapter.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactory", "AbstractFactory\AbstractFactory.csproj", "{064640B8-417B-474D-B2D7-176F6DA5A0BE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepositoryAndUnitOfWork", "RepositoryAndUnitOfWork\RepositoryAndUnitOfWork.csproj", "{37B23BD0-6E3D-4DF8-883A-CEF45C0B18B5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{064640B8-417B-474D-B2D7-176F6DA5A0BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{064640B8-417B-474D-B2D7-176F6DA5A0BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{064640B8-417B-474D-B2D7-176F6DA5A0BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37B23BD0-6E3D-4DF8-883A-CEF45C0B18B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37B23BD0-6E3D-4DF8-883A-CEF45C0B18B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37B23BD0-6E3D-4DF8-883A-CEF45C0B18B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37B23BD0-6E3D-4DF8-883A-CEF45C0B18B5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
