@@ -20,7 +20,7 @@
 #### The unit of pattern implementation manage in-memory database CRUD operations on entities as one transaction. So, if one of the operation is failing then entire db operations will be rollback.
 
 ## Entity Framework and Repository and Unit Of Work Patterns
-#### Entity Framework is based on the repository and unit of work patterns to perform CRUD operations on an entity.The DbSet class is based on the repository design pattern which provides us a set of method to perform CRUD operations on an entity. The DbContext class is based on unit of work pattern which includes all the DbSet entities. The DbContext class manages in-memory database operations on these entities and later saves all these updates as one transaction into database.	
+#### Entity Framework is based on the repository and unit of work patterns to perform CRUD operations on an entity. The DbSet class is based on the repository design pattern which provides us a set of method to perform CRUD operations on an entity. The DbContext class is based on unit of work pattern which includes all the DbSet entities. The DbContext class manages in-memory database operations on these entities and later saves all these updates as one transaction into database.	
 
 ## Advantages of Repository and Unit Of Work Design Patterns :
  - Abstract Data Access Layer and Business Access Layer from the Application.
