@@ -1,6 +1,6 @@
 ## Repository Pattern - CSharp
 #### The repository pattern is used to create an abstraction layer between the DAL (data access layer) and the BAL (business access layer) to perform CRUD operations.
-## The repository pattern can be implemented by using following two method :
+### The repository pattern can be implemented by using following two method :
  - Generic Repository Pattern
 	
 		A generic repository implementation is used to define common database operations 
@@ -12,8 +12,8 @@
 		to an entity within a separate class. For example, if you have two entities Category and Product,
 		each entity will have its own implementation repository.
 		
-## Recommended Repository Pattern Implementation
-###If you will use one of the above implementation, generic you can not use for specific operation on an entity and in case of non-generic implementation, you have to write code for common CRUD operations for each entity. So better way is, just create a generic repository for commonly used CRUD operation and for specific one create a non-generic repository and inherit form generic repository. The example code is given :
+### Recommended Repository Pattern Implementation
+#### If you will use one of the above implementation, generic you can not use for specific operation on an entity and in case of non-generic implementation, you have to write code for common CRUD operations for each entity. So better way is, just create a generic repository for commonly used CRUD operation and for specific one create a non-generic repository and inherit form generic repository. The example code is given :
  
  
 ## Unit of Work Pattern - CSharp 
@@ -24,7 +24,6 @@
 
 ## Advantages of Repository and Unit Of Work Design Patterns :
  - Abstract Data Access Layer and Business Access Layer from the Application.
- - Manage in-memory database operations and later saves in-memory updates as one transaction
-	into database.
+ - Manage in-memory database operations and later saves in-memory updates as one transaction into database.
  - Facilitates to make the layers loosely-coupled using dependency injection.
  - Facilitates to follow unit testing or test-driven development (TDD).
