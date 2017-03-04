@@ -52,6 +52,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Contracts\IVehicleBuilder.cs" />
+    <Compile Include="Creator\VehicleCreator.cs" />
+    <Compile Include="Models\HeroBuilder.cs" />
+    <Compile Include="Models\HondaBuilder.cs" />
     <Compile Include="Models\Vehicle.cs" />
     <Compile Include="StartUpDemo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
