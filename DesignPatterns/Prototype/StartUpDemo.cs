@@ -1,35 +1,36 @@
 ﻿using Prototype.Models;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Prototype
 {
+    /// <summary>
+    /// Prototype Pattern Demo
+    /// </summary>
     public class StartUpDemo
     {
         static void Main()
         {
             Developer dev = new Developer();
-            dev.Name = "Rahul";
+            dev.Name = "Johnny";
             dev.Role = "Team Leader";
             dev.PreferredLanguage = "C#";
 
             Developer devCopy = (Developer)dev.Clone();
-            devCopy.Name = "Arif"; //Not mention Role and PreferredLanguage, it will copy above
+            devCopy.Name = "Asparuh";
+            devCopy.Role = "Software Architect";
 
             Console.WriteLine(dev.GetDetails());
             Console.WriteLine(devCopy.GetDetails());
 
             Typist typist = new Typist();
-            typist.Name = "Monu";
+            typist.Name = "Monty";
             typist.Role = "Typist";
             typist.WordsPerMinute = 120;
 
             Typist typistCopy = (Typist)typist.Clone();
-            typistCopy.Name = "Sahil";
-            typistCopy.WordsPerMinute = 115;//Not mention Role, it will copy above
+            typistCopy.Name = "Sancho";
+            typistCopy.Role = "Junior Typist";
+            typistCopy.WordsPerMinute = 95;
 
             Console.WriteLine(typist.GetDetails());
             Console.WriteLine(typistCopy.GetDetails());
