@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton", "Singleton\Singleton.csproj", "{D904BE4B-1EE5-468B-893F-467D51935EEC}"
 EndProject
@@ -16,6 +16,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepositoryAndUnitOfWork", "RepositoryAndUnitOfWork\RepositoryAndUnitOfWork.csproj", "{37B23BD0-6E3D-4DF8-883A-CEF45C0B18B5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder", "Builder\Builder.csproj", "{1FD2461C-49FE-4BC1-915C-6491F8D9D91C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prototype", "Prototype\Prototype.csproj", "{0ACBFB51-D3F3-4045-9416-F404D03E48EA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{1FD2461C-49FE-4BC1-915C-6491F8D9D91C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1FD2461C-49FE-4BC1-915C-6491F8D9D91C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1FD2461C-49FE-4BC1-915C-6491F8D9D91C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0ACBFB51-D3F3-4045-9416-F404D03E48EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0ACBFB51-D3F3-4045-9416-F404D03E48EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0ACBFB51-D3F3-4045-9416-F404D03E48EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0ACBFB51-D3F3-4045-9416-F404D03E48EA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
