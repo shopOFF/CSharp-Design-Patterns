@@ -1,28 +1,19 @@
 ## Prototype Design Pattern - CSharp
 #### Prototype pattern falls under Creational Pattern of Gang of Four (GOF) Design Patterns in .Net. It is used to used to create a duplicate object or clone of the current object. It provides an interface for creating parts of a product. In this article, I would like share what is Prototype pattern and how is it work?
 ## What is Prototype Pattern?
-#### Decorator pattern is used to add new functionality to an existing object without changing its structure.
-#### This pattern creates a decorator class which wraps the original class and add new behaviors/operations to an object at run-time.
+#### Prototype pattern is used to create a duplicate object or clone of the current object to enhance performance. This pattern is used when creation of object is costly or complex.
+#### For Example: An object is to be created after a costly database operation. We can cache the object, returns its clone on next request and update the database as and when needed thus reducing database calls.
 
 ### Example:
- - Component - IVehicle
+ - Prototype Interface - IEmployee
 	
-		This is an interface containing members that will be implemented by ConcreteClass and Decorator.
+		This is an interface which is used for the types of object that can be cloned itself.
  
- - ConcreteComponent - HondaCity
+ - Concrete Prototype - Developer & Typist
 	
-		This is a class which implements the Component interface.
+		This is a class which implements the Prototype interface for cloning itself.
 
- - Decorator - AbstractVehicleDecorator
-	
-		This is an abstract class which implements the Component interface and contains the reference to a 
-		Component instance. This class also acts as base class for all decorators for components.
-
- - ConcreteDecorator - VehicleSpecialOffer 
- 
-		This is a class which inherits from Decorator class and provides a decorator for components.
-	
 	
 ## When to use it?
- - Add additional state or behavior to an object dynamically.
- - Make changes to some objects in a class without affecting others.
+ - The creation of each object is costly or complex.
+ - A limited number of state combinations exist in an object.
