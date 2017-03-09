@@ -8,7 +8,7 @@ namespace Bridge
 {
     public class StartUpDemo
     {
-        static void Main(string[] args)
+        static void Main()
         {
         }
     }
